@@ -9,6 +9,7 @@ import OurStory from "./Components/OurStory";
 import MeetTeam from "./Components/MeetTeam";
 import Testimonial from "./Components/Testimonial";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import './App.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/testimonial" element={<Testimonial />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
