@@ -4,7 +4,6 @@ import Nav from './Components/Nav';
 import Home from "./Components/Home";
 import Grooming from "./Components/Grooming";
 import DogFood from "./Components/DogFood";
-import dogFoodData from "./Data/FoodData";
 import Toys from "./Components/Toys";
 import OurStory from "./Components/OurStory";
 import MeetTeam from "./Components/MeetTeam";
@@ -21,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/home" element={<Home />} />
           <Route path="/grooming" element={<Grooming />} />
-          <Route path="/dog-food" element={<DogFoodPage />} />
+          <Route path="/dog-food" element={<DogFood />} />
           <Route path="/dog-toys" element={<Toys />} />
           <Route path="/our-story" element={<OurStory />} />
           <Route path="/meet-team" element={<MeetTeam />} />
@@ -31,16 +30,6 @@ function App() {
         <Footer />
       </div>
     </Router>
-  );
-}
-
-function DogFoodPage() {
-  return (
-    <div>
-      {dogFoodData.map((product) => (
-        <DogFood key={product.id} {...product} />
-      ))}
-    </div>
   );
 }
 
