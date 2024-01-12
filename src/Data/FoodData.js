@@ -8,7 +8,7 @@ const dogFoodData = [
     id: 1,
     imageUrl: DogFood1,
     name: "Premium Dog Food",
-    description: "A nutritious and delicious option for your furry friend.",
+    description: "A nutritious and delicious option for your furry friend to maintain their health.",
     price: 29.99,
   },
   {
@@ -36,7 +36,7 @@ const dogFoodData = [
     id: 5,
     imageUrl: DogFood1,
     name: "Gourmet Delight for Dogs",
-    description: "Treat your dog to a gourmet delight with every meal.",
+    description: "Treat your dog to a gourmet delight with every meal with this special blend.",
     price: 29.6,
   },
   {
@@ -50,7 +50,7 @@ const dogFoodData = [
     id: 7,
     imageUrl: DogFood3,
     name: "Vitality Plus Puppy Formula",
-    description: "Packed with essential nutrients for growing puppies.",
+    description: "Packed with essential vitamins and minerals for growing puppies.",
     price: 20.87,
   },
   {

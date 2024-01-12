@@ -13,7 +13,7 @@ function Nav() {
 
         <ul className="nav nav-pills">
           <li className="nav-item">
-            <Link to="home" className="nav-link active" aria-current="page">
+            <Link to="home" className="nav-link" aria-current="page">
               Home
             </Link>
           </li>
@@ -68,7 +68,7 @@ function Nav() {
             </div>
           </li>
           <li className="nav-item">
-            <Link to="contact" className="nav-link" >
+            <Link to="contact" className="nav-link">
               Contact Us
             </Link>
           </li>
@@ -79,5 +79,3 @@ function Nav() {
 }
 
 export default Nav;
-
-

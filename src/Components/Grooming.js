@@ -7,7 +7,7 @@ function Grooming() {
         <div className="container">
           <div className="row justify-content-md-center">
             <div className="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-              <h2 className="mb-4 display-5 text-center">Services</h2>
+              <h2 className="mb-4 display-5 text-center">Grooming Services</h2>
               <p className="text-secondary mb-5 text-center">
                 We use high-quality grooming products and equipment to ensure that your pet receives the best possible
                 care. Our team of experienced groomers is passionate about dogs and dedicated to providing the best
