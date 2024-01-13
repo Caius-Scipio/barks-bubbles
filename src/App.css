@@ -4,7 +4,6 @@
   --color_highlight: #4ef8ff;
 }
 
-/* .active {
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   background-color: var(--color_primary);
-  border: thick solid red;
-} */
+}

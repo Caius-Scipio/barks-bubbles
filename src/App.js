@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Nav from './Components/Nav';
 import Home from "./Components/Home";
 import Grooming from "./Components/Grooming";
@@ -18,6 +18,7 @@ function App() {
       <div>
         <Nav />
         <Routes>
+          <Route path="/" element={<Navigate to="/home" replace />} />
           <Route path="/home" element={<Home />} />
           <Route path="/grooming" element={<Grooming />} />
           <Route path="/dog-food" element={<DogFood />} />
